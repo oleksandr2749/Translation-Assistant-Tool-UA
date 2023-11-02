@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--T80 Translation Assistant Tool-->
+  <TranslationAssistantTool>T80 Translation Assistant Tool</TranslationAssistantTool>
+  <!--Select a mod-->
+  <SelectMod>Вибрати мод</SelectMod>
+  <!--Open folder-->
+  <OpenFolder>Відкрити теку</OpenFolder>
+  <!--T80: No mod selected-->
+  <NoModSelected>T80: Мод не вибрано</NoModSelected>
+  <!--Keyed file retrieval method-->
+  <KeyedFileRetrievalMethod>Метод пошуку файлів за ключем</KeyedFileRetrievalMethod>
+  <!--Fetch Keyed text for translation-->
+  <FetchKeyedTextForTranslation>Дістати файл перекладу Keyed</FetchKeyedTextForTranslation>
+  <!--T80: Fetching text-->
+  <FetchingText>T80: Діставання файлу</FetchingText>
+  <!--Fetch DefInjected text for translation-->
+  <FetchDefInjectedTextForTranslation>Дістати файл перекаду DefInjected</FetchDefInjectedTextForTranslation>
+  <!--Fetch Strings text for translation-->
+  <FetchStringsTextForTranslation>Дістати файл перекладу Strings</FetchStringsTextForTranslation>
+  <!--Open translation mod folder-->
+  <OpenTranslationModFolder>Відкрити теку перекладу</OpenTranslationModFolder>
+  <!--Select file-->
+  <SelectFile>Вибрати файл</SelectFile>
+  <!--T80: No files found-->
+  <NoFilesFound>T80: Файл не вибрано</NoFilesFound>
+  <!--API key-->
+  <APIKey>API key</APIKey>
+  <!--Language code-->
+  <LanguageCode>Language code</LanguageCode>
+  <!--Rate limit-->
+  <RateLimit>Rate limit</RateLimit>
+  <!--Translation method-->
+  <TranslationMethod>Translation method</TranslationMethod>
+  <!--Translate file-->
+  <TranslateFile>Translate file</TranslateFile>
+  <!--T80: No file selected-->
+  <NoFileSelected>T80: No file selected</NoFileSelected>
+  <!--T80: No API key-->
+  <NoAPIKey>T80: No API key</NoAPIKey>
+  <!--T80: No language code-->
+  <NoLanguageCode>T80: No language code</NoLanguageCode>
+  <!--Break switch-->
+  <BreakSwitch>Break switch</BreakSwitch>
+  <!--Clear comments-->
+  <ClearComments>Очистити коментарі</ClearComments>
+  <!--T80: Halting translation-->
+  <HaltingTranslation>T80: Halting translation</HaltingTranslation>
+  <!--T80: Request failed; refiring request. Increasing the rate limit might help prevent this.-->
+  <RefiringRequest>T80: Request failed; refiring request. Increasing the rate limit might help prevent this.</RefiringRequest>
+  <!--T80: "{0}" translated as "{1}"-->
+  <TranslationResult>T80: "{0}" translated as "{1}"</TranslationResult>
+  <!--T80: Translation complete-->
+  <TranslationComplete>T80: Translation complete</TranslationComplete>
+  <!--Instructions-->
+  <Instructions>Instructions</Instructions>
+  <!--1.Select a mod from the list of active mods.-->
+  <Step1>1.Виберіть мод зі списку активних модів.</Step1>
+  <!--2.Rimworld translations come in three different text formats. Keyed text(Messages, UI buttons), DefInjected text(Items, etc), Strings text(Names).-->
+  <Step2>2.Переклади Rimworld доступні у трьох різних текстових форматах. Keyed text (повідомлення, кнопки інтерфейсу), DefInjected text (об'єкти, елементи), Strings text (імена).</Step2>
+  <!--On the right, you can see options to retrieve the text. Each one of these options will create a local mod named [NameOfTheModBeingTranslated][CurrentlyActiveLanguage]Translation with the appropriate folder structure if one does not already exist.-->
+  <Step21>Праворуч ви можете побачити варіанти отримання тексту. Кожна з цих опцій створить локальний мод з назвою [Назва перекладаємого моду][Поточна активна мова гри] Переклад з відповідною структурою папок, якщо такої ще не існує.</Step21>
+  <!--This mod presents 2 ways of retrieving Keyed text, 1 way to retrive DefInjected text and 1 way to retrive Strings text:-->
+  <Step22>Цей мод має два способи отримання Keyed, один спосіб DefInjected і один спосіб Strings:</Step22>
+  <!---"CollectFromFolder"(default) looks into the folder of the mod being translated and checks if there are any Keyed files there. Then it copies all of their contents into a single file. This option may have issues if there are multiple Keyed files that are not meant to be used together. (Made for different versions of the game)-->
+  <Step23>-"CollectFromFolder" (за замовчуванням) перевіряє, чи містить тека перекладаємого моду файли з ключами. Копіює весь їхній вміст до моду перекладу. Ця опція може мати проблеми, якщо є кілька файлів Keyed, які не призначені для спільного використання. (Зроблено для різних версій гри)</Step23>
+  <!---"CollectLoaded" looks for loaded Keyed text that the game considers missing when generating translation reports. This option doesn't work if the source language of the mod being translated isn't English.-->
+  <Step24>-"CollectLoaded" шукає завантажений текст Keyed, який гра вважає відсутнім при створенні звітів про переклад. Ця опція не працює, якщо мова оригіналу перекладаємого моду не англійська.</Step24>
+  <!---"Fetch DefInjected" looks for all DefInjections that the game considers missing when generating translation reports. Then it generates an appropriate folder structure with files containing the missing Def translations.-->
+  <Step25>- "Fetch DefInjected" шукає всі DefInjections, які гра вважає відсутніми при створенні звітів про переклад. Після цього вона створює відповідну структуру теки з файлами, що містять відсутні переклади Def.</Step25>
+  <!--This takes quite a while to complete. "A while" scales with how many unnecessarily enabled mods you have beside the mod being translated.-->
+  <Step26>Це займає досить багато часу, особливо якщо ви маєте багато активних модів.</Step26>
+  <!---"Fetch Strings" It looks into the folder of the mod being translated and checks if there are any Strings folders there. It then copies their content into this mod's Strings folder.-->
+  <Step27>-"Fetch Strings" перевіряє, чи містить тека перекладаємого моду файли з рядками. Копіює їхній вміст до теки Strings моду перекладу.</Step27>
+  <!--It is inadvisable to use any of the above options if they have already been used and there are files in the folders they are supposed to fill, as it might generate errors. If you do, you might have to delete the Keyed, DefInjected, and Strings folders and use the options to retrieve them again.-->
+  <Step28>Не рекомендується використовувати будь-яку з наведених вище методів, якщо до цього вже були створені файли за допомогою інших методів, оскільки це може призвести до помилок. Спочатку вам доведеться видалити теки Keyed, DefInjected і Strings, а потім відновити їх за допомогою цих опцій.</Step28>
+  <!--"Fetch Keyed" and "Fetch DefInjected" options will generate XML comments above the fetched text containing the text in the source language. This is done so it is easier to compare the original and the result when translating.-->
+  <Step29>Опції "Fetch Keyed" і "Fetch DefInjected" генерують XML-коментарі над текстом, що містять текст мовою оригіналу.</Step29>
+  <!--3.The following step requires an internet connection and is completely optional and experimental. I take no responsibility for API quota usage by this mod. Follow the steps below to acquire a low-quality machine translation of the text.-->
+  <Step3>Далі автор моду розповідає про автоматичний переклад, але воно вам не потрібно, тому що ви перекладаєте самотужки, або за допомогою нормальних перекладачів з особистим редагуванням.</Step3>
+  <!--Select the file you want to translate.-->
+  <Step31></Step31>
+  <!--4.To translate the text using the API, you will need an API key. This mod uses APIs provided by the RapidAPI hub for easy access to their functionality.-->
+  <Step4></Step4>
+  <!--Select one of the API options and then go to the RapidAPI site, register, get a free tier subscription to the API, and retrieve the key.-->
+  <Step41></Step41>
+  <!--5.Get the language code for your language.-->
+  <Step5></Step5>
+  <!--The language code can be found on the page for the chosen API. They may differ per API, but usually they look like this:-->
+  <Step51></Step51>
+  <!--- en for English-->
+  <Step52></Step52>
+  <!--- fr for French-->
+  <Step53></Step53>
+  <!--- zh-CN for Chinese (Simplified)-->
+  <Step54></Step54>
+  <!--- etc-->
+  <Step55></Step55>
+  <!--6.The rate limit affects how often T80 will send requests to the API server (in milliseconds). Some APIs have limits on how many requests you can make per period of time, and even the ones that claim not to have limits can become unresponsive if you send too many requests at once. Don't set this number too low.-->
+  <Step6></Step6>
+  <!--7.There are 2 ways to translate files:-->
+  <Step7></Step7>
+  <!---"Careful" will split the text into small parts and send them to the API. This helps to prevent the translation of text parts that are not supposed to be translated, like new line symbols or anything in {} or [] or text before ->. This slightly lowers the quality of translation, as the text is translated in parts.-->
+  <Step71></Step71>
+  <!---"Fast" will simply send the entire string to the API. This could result in the issue described above. The results of this translation may cause errors (bad string pass).-->
+  <Step72></Step72>
+  <!--Neither of these options affects TXT file translation.-->
+  <Step73></Step73>
+  <!--8.Additional options.-->
+  <Step8></Step8>
+  <!---You can easily open the source mod folder or translation mod folder by clicking the corresponding buttons.-->
+  <Step81></Step81>
+  <!---You can stop a translation in progress by activating the break switch. This is likely to erase some of the contents of the file being translated.-->
+  <Step82></Step82>
+  <!---You can clear all the XML comments in a file that contains LanguageData.-->
+  <Step83></Step83>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Translation Assistant Tool Українською</name>
+  <author>oleksandr</author>
+  <packageId>oleksandr.TranslationAssistantToolUA</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>Gege.TranslationAssistantTool</li>
+  </loadAfter>
+  <description></description>
+</ModMetaData>	
